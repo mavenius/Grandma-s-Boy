@@ -21,15 +21,25 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GrandmasBoyV2", "GrandmasBo
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "58659"
+		SlnRelativePath = "GrandmasBoyV2\"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrandmasBoy.Service", "GrandmasBoy.Service\GrandmasBoy.Service.csproj", "{B35D4D9A-6422-4A54-8A5D-8C9C5B78EC16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3565F0B0-AB4C-4C74-A8B6-ABCB69AB8287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3565F0B0-AB4C-4C74-A8B6-ABCB69AB8287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3565F0B0-AB4C-4C74-A8B6-ABCB69AB8287}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3565F0B0-AB4C-4C74-A8B6-ABCB69AB8287}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B35D4D9A-6422-4A54-8A5D-8C9C5B78EC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35D4D9A-6422-4A54-8A5D-8C9C5B78EC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35D4D9A-6422-4A54-8A5D-8C9C5B78EC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35D4D9A-6422-4A54-8A5D-8C9C5B78EC16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
